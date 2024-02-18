@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body */
+body{
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 50px;
+}
+/* font-size */
+h1{
+    font-size: 88px;
+}
+h2{
+    font-size: 72px;
+}
+h3{
+    font-size: 48px;
+}
+h4{
+    font-size: 32px;
+}
+h5{
+    font-size: 24px;
+}
+h6{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+/* font-size */
+.bold{
+    font-weight: 900;
+}
+.semi-bold{
+    font-weight: 700;
+}
+.medium{
+    font-weight: 600;
+}
+.extra{
+    font-weight: 500;
+}
+.regular{
+    font-weight: 400;
+}
+/* color */
+.primary-color{
+    color: #f00;
+}
+.secondary-color{
+    color: #070211;
+}
+.white-color{
+    color: #fff;
+}
+/* text-center */
+.text-center{
+    text-align: center;
+}
+/* flex */
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+/* marging */
+.mb4{
+    margin-bottom: 16px;
+}
+.mb16{
+    margin-bottom: 48px;
+}
+.mt30{
+    margin-top: 120px;
+}
+.mb30{
+    margin-bottom: 120px;
+}
