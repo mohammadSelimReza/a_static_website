@@ -1,26 +1,53 @@
 /* google fonts */
 /* merriweather */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 /* inter */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 /* some root address */
-:root{
-    --merriweather :"Merriweather", serif;
-    --int : "Inter", sans-serif;
-    --primary_color : #F00;
-    --secondary_color: #070211;
-    --white_color: #fff;
+:root {
+  --merriweather: "Merriweather", serif;
+  --int: "Inter", sans-serif;
+  --primary_color: #f00;
+  --secondary_color: #070211;
+  --white_color: #fff;
 }
 /* index file css::*/
-.header{
-    font-family: var(--merriweather);
-    background-image: linear-gradient(to top, rgba(200, 202, 214, 0), rgba(10, 10, 10, 0.897)),url('../img/banner.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    border-radius: 16px;
-    /* background: linear-gradient(); */
+.header {
+  font-family: var(--merriweather);
+  background-image: linear-gradient(
+      to top,
+      rgba(200, 202, 214, 0),
+      rgba(10, 10, 10, 0.897)
+    ),
+    url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  border-radius: 16px;
+  /* background: linear-gradient(); */
 }
-.main-top{
-    font-family: var(--int);
+.main-top {
+  font-family: var(--int);
+}
+
+/* extra */
+.midNight {
+  height: 600px;
+  width: 1320px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background-image: linear-gradient(
+      to right,
+      rgba(49, 49, 49, 0.959),
+      rgba(56, 55, 55, 0)
+    ),
+    url("../img/midnight.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mid_btn {
+  text-decoration: none;
+  color: #fff;
 }
